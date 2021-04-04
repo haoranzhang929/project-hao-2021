@@ -3,13 +3,6 @@ import { createStyles, makeStyles } from "@material-ui/core/styles";
 
 import ThreeComponent from "./three";
 
-import { CustomizedSprings } from "../common/interfaces";
-
-interface MainProps {
-  handleMouseMove: ({ clientX, clientY }: React.MouseEvent<HTMLElement, MouseEvent>) => void;
-  springs: CustomizedSprings;
-}
-
 const useStyles = makeStyles(() =>
   createStyles({
     container: {
@@ -18,13 +11,13 @@ const useStyles = makeStyles(() =>
   })
 );
 
-const Main = ({ handleMouseMove, springs }: MainProps) => {
+const Main = () => {
   const { container } = useStyles();
 
   return (
-    <main onMouseMove={e => handleMouseMove(e)}>
+    <main>
       <Container maxWidth="md" className={container}>
-        <ThreeComponent springs={springs} />
+        <ThreeComponent />
       </Container>
     </main>
   );

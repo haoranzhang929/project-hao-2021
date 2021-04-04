@@ -4,16 +4,14 @@ import { Canvas } from "@react-three/fiber";
 import Group from "./Group";
 import LoadingBox from "./LoadingBox";
 
-import { CustomizedSprings } from "../../common/interfaces";
-
-const ThreeComponent = ({ springs }: { springs: CustomizedSprings }) => {
+const ThreeComponent = () => {
   return (
-    <Canvas dpr={window.devicePixelRatio || 1} camera={{ position: [0, 0.5, 7] }}>
+    <Canvas dpr={window.devicePixelRatio || 1} camera={{ position: [0, 0.5, 8] }}>
       <ambientLight />
       <pointLight position={[15, 15, 15]} intensity={0.5} />
       {/* <OrbitControls /> */}
       <Suspense fallback={<LoadingBox />}>
-        <Group springs={springs} />
+        <Group />
       </Suspense>
       {/* <axesHelper scale={100} /> */}
     </Canvas>

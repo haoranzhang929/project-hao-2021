@@ -22,7 +22,7 @@ const Font = ({ visible }: { visible: boolean }) => {
   const { opacity, opacity2 } = useSpring({
     opacity: hovered ? 0 : 1,
     opacity2: hovered ? 1 : 0,
-    config: config.stiff
+    config: config.default
   });
 
   return (
@@ -30,6 +30,9 @@ const Font = ({ visible }: { visible: boolean }) => {
       onPointerOver={() => setHover(true)}
       onPointerOut={() => setHover(false)}
       visible={visible}
+      scale={0.6}
+      position={[0, 0, 1]}
+      rotation={[0, -Math.PI, 0]}
     >
       <mesh rotation={[0, -Math.PI, 0]} position={[3.5, -1, -2.2]}>
         <textBufferGeometry args={[haoChar, fontConfig]}></textBufferGeometry>
