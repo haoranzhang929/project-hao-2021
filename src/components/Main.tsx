@@ -1,4 +1,5 @@
 import { Container } from "@material-ui/core";
+import { createStyles, makeStyles } from "@material-ui/core/styles";
 
 import ThreeComponent from "./three";
 
@@ -9,10 +10,20 @@ interface MainProps {
   springs: CustomizedSprings;
 }
 
+const useStyles = makeStyles(() =>
+  createStyles({
+    container: {
+      height: "90vh"
+    }
+  })
+);
+
 const Main = ({ handleMouseMove, springs }: MainProps) => {
+  const { container } = useStyles();
+
   return (
     <main onMouseMove={e => handleMouseMove(e)}>
-      <Container maxWidth="md" style={{ height: "90vh" }}>
+      <Container maxWidth="md" className={container}>
         <ThreeComponent springs={springs} />
       </Container>
     </main>
