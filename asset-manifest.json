@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/project-hao-2021/static/css/main.00bd93a6.chunk.css",
-    "main.js": "/project-hao-2021/static/js/main.a2ddd515.chunk.js",
-    "main.js.map": "/project-hao-2021/static/js/main.a2ddd515.chunk.js.map",
+    "main.js": "/project-hao-2021/static/js/main.03a16009.chunk.js",
+    "main.js.map": "/project-hao-2021/static/js/main.03a16009.chunk.js.map",
     "runtime-main.js": "/project-hao-2021/static/js/runtime-main.d360f0b3.js",
     "runtime-main.js.map": "/project-hao-2021/static/js/runtime-main.d360f0b3.js.map",
     "static/js/2.c2979cc2.chunk.js": "/project-hao-2021/static/js/2.c2979cc2.chunk.js",
@@ -18,6 +18,6 @@
     "static/js/runtime-main.d360f0b3.js",
     "static/js/2.c2979cc2.chunk.js",
     "static/css/main.00bd93a6.chunk.css",
-    "static/js/main.a2ddd515.chunk.js"
+    "static/js/main.03a16009.chunk.js"
   ]
 }
