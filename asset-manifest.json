@@ -1,23 +1,22 @@
 {
   "files": {
     "main.css": "/project-hao-2021/static/css/main.00bd93a6.chunk.css",
-    "main.js": "/project-hao-2021/static/js/main.03a16009.chunk.js",
-    "main.js.map": "/project-hao-2021/static/js/main.03a16009.chunk.js.map",
+    "main.js": "/project-hao-2021/static/js/main.b6ec3a79.chunk.js",
+    "main.js.map": "/project-hao-2021/static/js/main.b6ec3a79.chunk.js.map",
     "runtime-main.js": "/project-hao-2021/static/js/runtime-main.d360f0b3.js",
     "runtime-main.js.map": "/project-hao-2021/static/js/runtime-main.d360f0b3.js.map",
-    "static/js/2.c2979cc2.chunk.js": "/project-hao-2021/static/js/2.c2979cc2.chunk.js",
-    "static/js/2.c2979cc2.chunk.js.map": "/project-hao-2021/static/js/2.c2979cc2.chunk.js.map",
+    "static/js/2.9f8ef4f1.chunk.js": "/project-hao-2021/static/js/2.9f8ef4f1.chunk.js",
+    "static/js/2.9f8ef4f1.chunk.js.map": "/project-hao-2021/static/js/2.9f8ef4f1.chunk.js.map",
     "index.html": "/project-hao-2021/index.html",
     "static/css/main.00bd93a6.chunk.css.map": "/project-hao-2021/static/css/main.00bd93a6.chunk.css.map",
-    "static/js/2.c2979cc2.chunk.js.LICENSE.txt": "/project-hao-2021/static/js/2.c2979cc2.chunk.js.LICENSE.txt",
-    "static/media/logo.5f479344.svg": "/project-hao-2021/static/media/logo.5f479344.svg",
+    "static/js/2.9f8ef4f1.chunk.js.LICENSE.txt": "/project-hao-2021/static/js/2.9f8ef4f1.chunk.js.LICENSE.txt",
     "static/media/my3dModal.92113f02.glb": "/project-hao-2021/static/media/my3dModal.92113f02.glb",
     "static/media/my3dSuitModal.46e3bfc6.glb": "/project-hao-2021/static/media/my3dSuitModal.46e3bfc6.glb"
   },
   "entrypoints": [
     "static/js/runtime-main.d360f0b3.js",
-    "static/js/2.c2979cc2.chunk.js",
+    "static/js/2.9f8ef4f1.chunk.js",
     "static/css/main.00bd93a6.chunk.css",
-    "static/js/main.03a16009.chunk.js"
+    "static/js/main.b6ec3a79.chunk.js"
   ]
 }
