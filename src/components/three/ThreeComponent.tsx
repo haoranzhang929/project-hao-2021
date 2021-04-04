@@ -4,9 +4,9 @@ import { Canvas } from "@react-three/fiber";
 import Group from "./Group";
 import LoadingBox from "./LoadingBox";
 
-import { CustomizedSprings } from "../common/interfaces";
+import { CustomizedSprings } from "../../common/interfaces";
 
-const ThreeMe = ({ springs }: { springs: CustomizedSprings }) => {
+const ThreeComponent = ({ springs }: { springs: CustomizedSprings }) => {
   return (
     <Canvas dpr={window.devicePixelRatio || 1} camera={{ position: [0, 0.5, 7] }}>
       <ambientLight />
@@ -20,4 +20,4 @@ const ThreeMe = ({ springs }: { springs: CustomizedSprings }) => {
   );
 };
 
-export default ThreeMe;
+export default ThreeComponent;

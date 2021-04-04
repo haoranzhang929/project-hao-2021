@@ -2,7 +2,7 @@ import { SkinnedMesh, Bone, MeshStandardMaterial } from "three";
 import { useGLTF } from "@react-three/drei";
 import { GLTF } from "three/examples/jsm/loaders/GLTFLoader";
 
-import my3dModal from "../assets/my3dModal.glb";
+import my3dModal from "../../assets/my3dModal.glb";
 
 type GLTFResult = GLTF & {
   nodes: {

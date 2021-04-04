@@ -1,6 +1,6 @@
 import { Container } from "@material-ui/core";
 
-import ThreeMe from "./ThreeMe";
+import ThreeComponent from "./three";
 
 import { CustomizedSprings } from "../common/interfaces";
 
@@ -13,7 +13,7 @@ const Main = ({ handleMouseMove, springs }: MainProps) => {
   return (
     <main onMouseMove={e => handleMouseMove(e)}>
       <Container maxWidth="md" style={{ height: "90vh" }}>
-        <ThreeMe springs={springs} />
+        <ThreeComponent springs={springs} />
       </Container>
     </main>
   );
