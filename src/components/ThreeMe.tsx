@@ -1,19 +1,12 @@
 import React, { Suspense } from "react";
 import { Canvas } from "@react-three/fiber";
-import { SpringValue } from "react-spring";
 
 import Group from "./Group";
 import LoadingBox from "./LoadingBox";
 
-const ThreeMe = ({
-  springs
-}: {
-  springs: {
-    pos: SpringValue<number[]>;
-    scale: SpringValue<number[]>;
-    rotation: SpringValue<number[]>;
-  };
-}) => {
+import { CustomizedSprings } from "../common/interfaces";
+
+const ThreeMe = ({ springs }: { springs: CustomizedSprings }) => {
   return (
     <Canvas dpr={window.devicePixelRatio || 1} camera={{ position: [0, 0.5, 7] }}>
       <ambientLight />
