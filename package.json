@@ -2,6 +2,8 @@
   "name": "project-hao-2021",
   "version": "0.1.0",
   "private": true,
+  "author": "Haoran Zhang",
+  "homepage": "https://haoranzhang929.github.io/project-hao-2021/",
   "dependencies": {
     "@material-ui/core": "^4.11.3",
     "@material-ui/icons": "^4.11.2",
@@ -27,6 +29,7 @@
     "eslint-config-prettier": "^8.1.0",
     "eslint-plugin-prettier": "^3.3.1",
     "eslint-plugin-react": "^7.23.1",
+    "gh-pages": "^3.1.0",
     "prettier": "^2.2.1",
     "typescript": "^4.2.3"
   },
@@ -37,7 +40,8 @@
     "typecheck": "echo 'Type Checking...' && tsc --noEmit && echo 'Type Checking Completed'",
     "eject": "react-scripts eject",
     "lint": "echo 'Lint Checking...' && eslint --ext .js,.jsx,.ts,.tsx src && echo 'Lint Checking Completed'",
-    "lint:fix": "eslint --ext .js,.jsx,.ts,.tsx src --fix"
+    "lint:fix": "eslint --ext .js,.jsx,.ts,.tsx src --fix",
+    "deploy:gh-pages": "npm run build && gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"

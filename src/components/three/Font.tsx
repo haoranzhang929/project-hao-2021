@@ -4,7 +4,7 @@ import { useLoader } from "@react-three/fiber";
 import { useSpring, animated, config } from "react-spring/three";
 
 const Font = ({ visible }: { visible: boolean }) => {
-  const haoFont = useLoader(FontLoader, "/hao.json");
+  const haoFont = useLoader(FontLoader, `${process.env.PUBLIC_URL}/hao.json`);
   const [hovered, setHover] = useState(false);
 
   const haoChar = "皓";
