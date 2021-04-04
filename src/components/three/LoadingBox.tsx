@@ -15,10 +15,10 @@ const LoadingBox = () => {
   });
   return (
     <>
-      <Box ref={boxRef} scale={0.5} position={[0, 1, 0]}>
+      <Box ref={boxRef} scale={1} position={[0, 1, 0]}>
         <MeshWobbleMaterial factor={1} speed={1} />
       </Box>
-      <Text position={[0, 0.4, 0]} fontSize={0.18} color={0x6b5152}>
+      <Text position={[0, -0.1, 0]} fontSize={0.3} color={0x6b5152}>
         loading...
       </Text>
     </>
