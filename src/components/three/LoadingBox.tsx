@@ -1,7 +1,8 @@
 import { useRef } from "react";
-import { Box, Text, MeshWobbleMaterial } from "@react-three/drei";
+import { Box, MeshWobbleMaterial, Html } from "@react-three/drei";
 import { useFrame } from "@react-three/fiber";
 import { Mesh } from "three";
+import Typography from "@material-ui/core/Typography";
 
 const LoadingBox = () => {
   const boxRef = useRef<Mesh>();
@@ -18,9 +19,11 @@ const LoadingBox = () => {
       <Box ref={boxRef} scale={1} position={[0, 1, 0]}>
         <MeshWobbleMaterial factor={1} speed={1} />
       </Box>
-      <Text position={[0, -0.1, 0]} fontSize={0.3} color={0x6b5152}>
-        loading...
-      </Text>
+      <Html position={[-0.4, 0.1, 0]}>
+        <Typography align="center" variant="caption">
+          loading...
+        </Typography>
+      </Html>
     </>
   );
 };
